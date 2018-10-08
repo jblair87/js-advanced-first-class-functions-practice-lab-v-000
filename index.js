@@ -31,6 +31,6 @@ return drivers.reduce(function (total, currentDriver)
 };
 
 
-
-const averageRevenue = function (driver){};
-
+const averageRevenue = function (driver){
+  return totalRevenue(drivers) / drivers.length;
+};
