@@ -24,7 +24,7 @@ return drivers.slice().sort(function(driverOne, driverTwo)
 };
 
 
-const totalRevenue = function (driver)  
+const totalRevenue = function (drivers)  
 return drivers.reduce(function (total, currentDriver) 
 { return currentDriver.revenue + total;
 }, 0);
