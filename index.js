@@ -12,7 +12,7 @@ console.log(driver.name);}
 };
 
 const driversByRevenue = function (drivers){
-  return drivers.slice().sort
+  return drivers.slice().sort(function(driverOne, driverTwo))
 };
 
 const driversByName = function (driver){};
